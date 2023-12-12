@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
-import { userGetInfoService } from '../../api/user'
+import { userGetInfoService } from '@/api/user'
 
 export const useUserStore = defineStore(
   'big-user',
